@@ -29,7 +29,7 @@ addTask.addEventListener('click',function(){
 
   let taskItem = `
     <li class = "taskItem">
-      <input type="checkbox" onchange='completed(this.parentElement)'>
+      <input class="checkbox" type="checkbox" onchange='completed(this.parentElement)'>
       <label>${taskTitle}</label>
       <button class="button" onclick="removeTask(this.parentElement)">Delete</button>
     </li>
